@@ -1,0 +1,43 @@
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+img{
+    margin:5px;
+}
+.rating{
+    margin:15px 0;
+}
+
+button{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.catID{
+    margin-bottom: 15px;
+}
+
+button{
+    width:95px;
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

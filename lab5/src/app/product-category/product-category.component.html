@@ -1,0 +1,7 @@
+<h1>Categories</h1>
+<div class="container">
+    <a *ngFor="let category of categories" (click)="selectCategory(category.productsList)" 
+    [routerLink]="'/categories/' + category.id + '/products'" >
+        {{category.name}}</a>
+</div>
+

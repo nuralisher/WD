@@ -1,0 +1,166 @@
+body{
+    margin:0;
+    -webkit-font-smoothing:antialiased;  
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2{
+    margin:0;
+}
+
+.main{
+    margin: 30px 207px 0px;
+    padding: 0 0 44px;
+    width: 935px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    position: relative;
+    top: 100px;
+}
+.right{
+    width:350px;
+    margin-top: 12px;
+}
+
+
+.reg_box{
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.reg_form{
+    
+    border: 1px solid rgb(48, 47, 47);
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.inst{
+    font-size: 34px;
+    font-style: italic;
+    margin: 22px 86px 12px;
+}
+
+.text1{
+    font-size: 17px;
+    color: #999999;
+    font-weight: 600;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+
+.btn{
+    margin: 8px 40px;
+}
+
+.button{
+    width: 100%;
+    height: 32px;
+    border:0;
+    border-radius: 5px;
+    background-color: rgb(91, 107, 245);
+    color: white;
+    font-size: 14px;
+    font-weight: 600    ;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 10px 40px 18px;
+}
+
+.line_text{
+    margin: 0 18px;
+}
+
+.ins{
+    margin:0 40px 6px;
+}
+
+.ins input{
+    padding: 9px 0 7px 8px;
+    width:100%;
+}
+
+.paragraph{
+    display:block;
+    margin:10px 60px;
+    color:#999999c5;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.paragraph a{
+    font-weight: 500;
+    color:#999999;
+    text-decoration: none;
+}
+
+.under_form{
+    margin:0 0 10px;
+    padding:10px 0;
+    border: 1px solid rgb(48, 47, 47);
+}
+
+.p{
+    margin:15px;
+    font-size: 14px;
+    color:#262626;
+    text-align: center;
+}
+
+.p a{
+    text-decoration: none;
+}
+.p a:hover{
+    text-decoration: underline;
+}
+
+.add{
+    margin:10px 20px;
+    color:#262626;
+    font-size: 14px;
+    text-align: center;
+}
+
+.adds{
+    text-align: center;
+}
+
+footer{
+    background-color: #fafafa;
+    padding:0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    padding:38px 0;
+}
+
+.f_nav{
+    
+    padding:0 16px 3px 0;
+}
+.nlinks{
+    margin:0 16px 7px 0;
+    font-size: 11px;
+    color:#003559;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.last_text{
+    color:#999999;
+    font-size: 11px;
+}

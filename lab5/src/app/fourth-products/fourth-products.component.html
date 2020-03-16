@@ -1,0 +1,21 @@
+<h2>Products of Categoryid {{selectedCategory.id}}</h2>
+
+<div class="products">
+  <div class="element" *ngFor="let product of selectedCategory.productsList">
+    <h3 class="name">
+      <a [title]="product.name + ' details'" href="{{product.link}}" >
+        {{ product.name }}
+      </a>
+    </h3>
+    <img src="{{product.img[0]}}"  height="300px" width="300px" alt="">
+  
+    <div class="details">
+      <a [routerLink]="'/products/'+product.productID"  class="info">Show Product Details</a>
+    </div>
+    <div class="catID">CategoryID:{{product.categoryID}}</div>
+  
+  </div>
+</div>
+
+
+
