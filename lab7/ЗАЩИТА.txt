@@ -1,23 +1,23 @@
-about labDjango:
-there is one application called newApp
-with url newApp that show page with http resonse 'hello this is newApp'
-and there is environment calle newenv
-but inside it there is no django module 
-So when it activated we can not run our project
-when it is deactivated we can run
+About labDjango:
+	there is one application called newApp
+	with url newApp that show page with http resonse 'hello this is newApp'
+	and there is environment called newenv
+	but inside it there is no django module 
+	So when it activated we can not run our project
+	when it is deactivated we can run
 
-commands:
+Comands:
 
-Django:
-django-adming startproject projectName --> creates django project
-python manage.py runserver --> to run project
-python manage.py startapp appName --> to creat application in django
+	Django:
+		django-adming startproject projectName --> creates django project
+		python manage.py runserver --> to run project
+		python manage.py startapp appName --> to creat application in django
 
-Virtual environment:
-virtualenv envName --> creates environment
-envName\Scripts\activate --> to activate environment
-deactivate --> to deactivate environment
+	Virtual environment:
+		virtualenv envName --> creates environment
+		envName\Scripts\activate --> to activate environment
+		deactivate --> to deactivate environment
 
-python -V --> to see python version
-py -m django --version --> to see django version
+	python -V --> to see python version
+	py -m django --version --> to see django version
 
