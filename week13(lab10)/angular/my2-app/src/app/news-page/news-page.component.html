@@ -1,0 +1,28 @@
+<h1>Vacancies</h1>
+<div *ngIf="companyv">
+    Found
+</div>
+<div *ngIf="!company">
+    Not found company
+</div>
+
+<div *ngIf="company">
+    <div>Name: {{company.name}}</div>
+    <div>description: {{company.description}}</div>
+    <div>city: {{company.city}}</div>
+    <div>address: {{company.address}}</div>
+</div>
+
+
+<h1>Category vacancies</h1>
+<div *ngFor="let vacancy of ownVacancy">
+    {{vacancy.name}}
+    <div>CompanyId: {{vacancy.company_id}}</div>
+</div> 
+
+<h1>All vacancies</h1>
+<div *ngFor="let vacancy of Allvacancies">
+    {{vacancy.name}}
+    <div>CompanyId: {{vacancy.company_id}}</div>
+</div>
+

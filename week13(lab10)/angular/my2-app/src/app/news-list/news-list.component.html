@@ -1,0 +1,7 @@
+<h1>Companies</h1>
+<div *ngFor="let company of companies" >
+    <a [routerLink]="'/companies/' + company.id">{{company.name}}</a>
+    <!-- <button (click)=delete(news.id)>delete</button> -->
+</div>
+
+<!-- <button (click)="Add()">Add News</button> -->
